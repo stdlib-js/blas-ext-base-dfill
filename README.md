@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@deno/mod.js';
+import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@v0.2.2-deno/mod.js';
 ```
 
 #### dfill( N, alpha, x, stride )
@@ -143,7 +143,7 @@ dfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@deno/mod.js';
+import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@v0.2.2-deno/mod.js';
 
 var rand = discreteUniform( -100, 100 );
 
