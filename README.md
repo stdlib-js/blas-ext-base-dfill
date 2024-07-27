@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dfill/tags). For example,
+
+```javascript
 import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@v0.2.2-deno/mod.js';
 ```
 
@@ -143,7 +148,7 @@ dfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@v0.2.2-deno/mod.js';
+import dfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill@deno/mod.js';
 
 var rand = discreteUniform( -100, 100 );
 
