@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-17)
+## Unreleased (2024-09-24)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`1f49ad9`](https://github.com/stdlib-js/stdlib/commit/1f49ad98dfcee0a15a8bd3873508f2eaedd88807) - update C function names in `blas/ext/base/dfill` to prevent name collisions [(#2944)](https://github.com/stdlib-js/stdlib/pull/2944)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`1f49ad9`](https://github.com/stdlib-js/stdlib/commit/1f49ad98dfcee0a15a8bd3873508f2eaedd88807) - **fix:** update C function names in `blas/ext/base/dfill` to prevent name collisions [(#2944)](https://github.com/stdlib-js/stdlib/pull/2944) _(by Muhammad Haris)_
 -   [`6ae1c10`](https://github.com/stdlib-js/stdlib/commit/6ae1c10d70d86520a0c915864440ef6e8d255a21) - **docs:** rename parameter _(by Athan Reines)_
 -   [`7eb1266`](https://github.com/stdlib-js/stdlib/commit/7eb12667e2052db9fc1e678bf0cc2082e2993aec) - **docs:** rename parameters _(by Athan Reines)_
 -   [`040a335`](https://github.com/stdlib-js/stdlib/commit/040a33583774b120b5e486a072cff397fdb1d273) - **feat:** add a C `ndarray` API, refactor, and clean-up _(by Athan Reines)_
@@ -38,9 +49,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Muhammad Haris
 
 </section>
 
