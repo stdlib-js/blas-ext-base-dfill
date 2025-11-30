@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`086231d`](https://github.com/stdlib-js/stdlib/commit/086231d0bcfe2d4a9c4c932fc9333f8ac63c4087) - **bench:** refactor to use string interpolation in `blas/ext/base/dfill` _(by Athan Reines)_
 -   [`f0f8a70`](https://github.com/stdlib-js/stdlib/commit/f0f8a70989b6cfdabf6b928650c50b28aab5e224) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dfill` _(by Athan Reines)_
 -   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
 -   [`2981d28`](https://github.com/stdlib-js/stdlib/commit/2981d283200482a49ced3e27416ec106eef3fd77) - **docs:** update `blas/ext/base/dfill` to follow current project conventions [(#5171)](https://github.com/stdlib-js/stdlib/pull/5171) _(by Muhammad Haris)_
