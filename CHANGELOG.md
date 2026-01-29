@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-29)
+## 0.3.0 (2026-01-29)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`086231d`](https://github.com/stdlib-js/stdlib/commit/086231d0bcfe2d4a9c4c932fc9333f8ac63c4087) - **bench:** refactor to use string interpolation in `blas/ext/base/dfill` _(by Athan Reines)_
 -   [`f0f8a70`](https://github.com/stdlib-js/stdlib/commit/f0f8a70989b6cfdabf6b928650c50b28aab5e224) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dfill` _(by Athan Reines)_
 -   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
